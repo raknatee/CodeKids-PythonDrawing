@@ -13,7 +13,10 @@ from turtle import (
     fd,
     seth,
 )
-from utils import pen_up_goto_down
+def pen_up_goto_down(x, y):
+    penup()
+    goto(x, y)
+    pendown()
 
 
 def first():
