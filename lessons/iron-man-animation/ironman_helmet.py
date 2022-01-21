@@ -1,8 +1,8 @@
-def logo(pen,points):
+def logo(pen, points, color):
     pen.penup()
     pen.goto(points[0])
     pen.pendown()
-    pen.color("#fab104")  # Light Yellow
+    pen.color(color)  
     pen.begin_fill()
 
     for i in range(1, len(points)):

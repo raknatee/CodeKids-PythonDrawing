@@ -17,7 +17,7 @@ def main():
     while True:
         moon.clear()
         moon_object(moon, "red", 100, 20)
-        moon_object(crescent, "black", 100, 20)
+        moon_object(crescent, "white", 100, 20)
         moon_movement(moon, 0.8)
         screen.update()
 
